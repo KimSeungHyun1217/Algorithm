@@ -7,6 +7,7 @@ flag= False
 top = 0
 stack_list = []
 answer_list = []
+
 for i in range(maxnum):
     num = int(input())
     if num > top:
