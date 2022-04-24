@@ -1,6 +1,6 @@
 num = int(input())
 
-d = [0] * (num + 1) # index 26까지 0으로 설정 bottom up 방식
+d = [0] * (num + 1) # index num+1까지 0으로 설정 bottom up 방식
 
 
 for i in range(2,num+1):
