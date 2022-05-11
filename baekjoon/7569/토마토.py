@@ -1,4 +1,4 @@
-'''
+
 from collections import deque
 import sys
 
@@ -52,11 +52,5 @@ for i in range(h):
                     ans = graph[k][i][j]
 
 print(ans-1)
-'''
 
-def z():
-    global x
-    print(x)
 
-x = 5
-z()
